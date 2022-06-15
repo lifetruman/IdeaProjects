@@ -8,7 +8,7 @@ public class Hello{
         //Ctrl + right & left = 단어별 이동
         //Shift + Ctrl + right & left = 단어별 선택
 
-        System.out.println("Hello World");
+        System.out.println("Hello, Tim");
 
         int myFirstNumber = (10 + 5) + (2 * 10); //35
         int mySecondNumber = 12;

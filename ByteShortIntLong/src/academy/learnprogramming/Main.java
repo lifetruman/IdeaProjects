@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Busted Min value = " + (myMinIntValue - 1));
         System.out.println("Busted Max value = " + (myMaxIntValue + 1));
 
-        int myMaxIntTest = 2_147_483_647;
+        int myMaxIntTest = 2_147_483_647; // 한눈에 읽기 편하게 이렇게 작성할수있다!
         System.out.println(myMaxIntTest);
 
         byte myMinByteValue = Byte.MIN_VALUE;
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Busted Min value = " + (myMinShortValue - 1));
         System.out.println("Busted Max value = " + (myMaxShortValue + 1));
 
-        long myLongValue = 100;
+        long myLongValue = 100L; // 100으로 적어도 오류가 안나는 이유는 컴퓨터에서 int를 Long으로 변환해주기 때문이다.
         long myMinLongValue = Long.MIN_VALUE;
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongValue);
